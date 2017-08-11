@@ -20,7 +20,6 @@
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -83,11 +82,9 @@
                                 </div>
                             </a>
                         </li>
-
                         <li class="message-footer">
                             <a href="#">Read All New Messages</a>
                         </li>
-
                     </ul>
                 </li>
 
@@ -118,6 +115,7 @@
                         </li>
                     </ul>
                 </li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Ankita Sahoo <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -140,7 +138,12 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
+                  <li>
+                    <div class="form-group" style="margin-top:5pt;margin-left:10pt;">
+                               <input class="form-control" placeholder="Search">
+                           </div>
+                  </li>
+                    <li>
                         <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
@@ -152,7 +155,7 @@
                     <li>
                         <a href="#"><i class="fa fa-fw fa-android"></i> Bots</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="#"><i class="fa fa-fw fa-users"></i> Social Media</a>
                     </li>
                     <li>
@@ -171,6 +174,12 @@
 
         <div id="page-wrapper">
                 <!-- Page Heading -->
+                <div class="btn-group">
+  <button type="button" class="btn btn-primary activa">&nbsp;&nbsp;Post&nbsp;&nbsp;</button>
+  <button type="button" class="btn btn-primary">&nbsp;&nbsp;Email&nbsp;&nbsp;</button>
+  <button type="button" class="btn btn-primary">&nbsp;&nbsp;Suggest&nbsp;&nbsp;</button>
+</div>
+
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
@@ -206,17 +215,63 @@
 
 
                <div class="jumbotron">
-                 <div class="pull-right btn-group">
+                 <div class="pull-right btn-group" style="position:relative; top:-10%; margin-right:20px;">
                    <button type="button" class="btn btn-default">Past</button>
                    <button type="button" class="btn btn-primary">Future</button>
                  </div>
-                </div>
+                 <br/>
+               </br>
+             </br>
+           </br>
+         </br>
+                     <table class="table1">
+                       <tr class="row1">
+                         <td class="col1">1)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
+                         <td class="col1">Post 1</td>
+                         <td class="col1">to be posted at 17:20</td>
+                         <td class="col1"><i class="fa fa-user"></i></td>
+                         <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
+                         <td class="col1"><button type="button" class="btn btn-primary">Delete</button></td>
+                       </tr>
+                       <tr class="row1">
+                         <td class="col1">2)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
+                         <td class="col1">Post 2</td>
+                         <td class="col1">to be posted on 16.06.17, 18:30</td>
+                         <td class="col1"><i class="fa fa-user"></i></td>
+                         <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
+                         <td class="col1"><button type="button" class="btn btn-primary">Delete</button></td>
+                       </tr>
+                     </table>
 
-            </div>
             <!-- /.container-fluid -->
         </div>
+        <hr/>
         <!-- /#page-wrapper -->
     </div>
+  </div>
+  <div class="row" style="background-color:white;">
+    <div class="col-lg-12" style="text-align:center;">
+      <p>
+        <i class="fa fa-facebook-square" style="font-size:25pt; padding-right:10pt;"></i>
+        <i class="fa fa-twitter-square" style="font-size:25pt; padding-right:10pt;"></i>
+        <i class="fa fa-instagram" style="font-size:25pt;"></i>
+      </p>
+    </div>
+</div>
+<hr/>
+<table class="table2">
+  <tr class="row2">
+    <td class="col2">Blog</td>
+    <td class="col2">About</td>
+    <td class="col2">Contact</td>
+    <td class="col2">FAQ</td>
+    <td class="col2">Help</td>
+    <td class="col2 pull-right">Version - 1.0.0</td>
+    <td class="col2 pull-right">Thank you for using KB Bot</td>
+    <td class="col2 pull-right">Terms and Conditions</td>
+  </tr>
+</table>
+<br/>
     <!-- /#wrapper -->
 
     <!-- jQuery -->
