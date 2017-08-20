@@ -175,9 +175,9 @@
         <div id="page-wrapper">
                 <!-- Page Heading -->
                 <div class="btn-group">
-  <button type="button" class="btn btn-primary activa"><a href="index.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Post&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="index.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Post&nbsp;&nbsp;</a></button>
   <button type="button" class="btn btn-primary"><a href="email.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Email&nbsp;&nbsp;</a></button>
-  <button type="button" class="btn btn-primary"><a href="suggest.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Suggest&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary activa"><a href="suggest.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Suggest&nbsp;&nbsp;</a></button>
 </div>
 <br/>
 <br/>
@@ -219,68 +219,117 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            New Post :
+                            Automate :
                         </h1>
-                              <textarea>Type Here...</textarea>
+                        <div class="jumbotron">
+                          <h3 style="margin-top:-5vh;">Customize: <i class="fa fa-exclamation-circle"></i></h3>
+                          <div class="row" style="transform:translateX(25%);">
+                    <div class="col-lg-6">
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Enter site URL">
+                                <br/>
+                                <input class="form-control" style="height:20vh;" placeholder="Enter Custom Post Description">
+                            </div>
+                          </div>
+                        </div>
+                        <h3>Existing RSS Feeds :</h3>
+                        <div class="row" style="transform:translateX(25%);">
+                  <div class="col-lg-6">
+                            <a style="text-decoration:none;" href="#">www.example.com/feed <span class="badge">X</span></a>
+                            <button class="btn btn-primary" type="button" style="transform:translate(600%,40%);">Update
+                            </button>
+                              <br/>
+                            <a style="text-decoration:none;" href="#">www.example1.com/feed <span class="badge">X</span></a>
+                            <br/><br/>
+                            <button class="btn btn-primary col-lg-12" type="button">Click me for a RSS Broadcast
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+</div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">
+                                Automate :
+                            </h1>
+                            <div class="jumbotron">
+                              <div class="row" style="transform:translateX(25%);">
+                        <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Enter keyworkds related to your post to get the most efficent tags">
+                                    <button class="btn btn-primary" type="button" style="transform:translateX(800%);">Submit
+                                    </button>
+                                    <br/>
+                                    <input class="form-control" placeholder="Enter Post URL">
+                                    <button class="btn btn-primary" type="button" style="transform:translateX(800%);">Submit
+                                    </button>
+                                </div>
+                                <div class="panel panel-default">
+  <div class="panel-body">
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+    <span class="badge">Tag X</span>
+  </div>
+  </div>
+  <p>
+  <button class="btn btn-default" type="button" style="transform:translateX(850%);">Clear
+  </button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-default" type="button" style="transform:translateX(850%);">Copy
+  </button>
+</p>
+
+                              </div>
+                            </div>
+
+                          </div>
+    </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="page-header">
+                                      Content Suggester :
+                                </h1>
+                                <div class="jumbotron">
+
+                                  <div class="row" style="transform:translateX(25%);">
+                            <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" style="height:20vh;" placeholder="Enter keywords for search">
+                                        <div class="btn-group" style="transform:translate(700%, -400%);">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Twitter <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">LinkedIn</a></li>
+  </ul>
+</div>
+                                        <br/>
+                                        <input class="form-control" placeholder="Enter Username or Handle">
+                                    </div>
+                                    <button class="btn btn-primary" type="button" style="transform:translateX(800%);">Submit
+                                    </button>
+                                    <button class="btn btn-primary col-lg-12" type="button">Click me to know about what's Trending
+                                    </button>
+                                  </div>
+
+                                </div>
+
+                              </div>
+        </div>
+                            </div>
                 </div>
 
-                <p>
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-file-image-o"></i> Add Image </button>&nbsp;&nbsp;
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-files-o"></i> Bulk Upload </button>&nbsp;&nbsp;
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-smile-o"></i> <i class="fa fa-plus"></i> </button>&nbsp;&nbsp;
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-picture-o"></i> Template </button>&nbsp;&nbsp;
-                   <button type="button" class="pull-right btn btn-lg btn-primary">Post </button>&nbsp;&nbsp;
-                       <button type="button" class="btn btn-primary">Schedule </button>
-                       <button type="button" style="margin-left:-2pt;" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                         <i class="fa fa-calendar"></i> <span class="caret"></span></button>
-                         <ul class="dropdown-menu" role="menu">
-                           <li><a href="#">Tablet</a></li>
-                           <li><a href="#">Smartphone</a></li>
-                         </ul>
-               </p>
 
-               <div class="row">
-                   <div class="col-lg-12">
-                       <h1 class="page-header">
-                           Post :
-                       </h1>
-
-                   </div>
-               </div>
-
-
-               <div class="jumbotron">
-                 <div class="pull-right btn-group" style="position:relative; top:-10%; margin-right:20px;">
-                   <button type="button" class="btn btn-default">Past</button>
-                   <button type="button" class="btn btn-primary">Future</button>
-                 </div>
-                 <br/>
-               </br>
-             </br>
-           </br>
-         </br>
-                     <table class="table1">
-                       <tr class="row1">
-                         <td class="col1">1)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
-                         <td class="col1">Post 1</td>
-                         <td class="col1">to be posted at 17:20</td>
-                         <td class="col1"><i class="fa fa-user"></i></td>
-                         <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
-                         <td class="col1"><button type="button" class="btn btn-primary">Delete</button></td>
-                       </tr>
-                       <tr class="row1">
-                         <td class="col1">2)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
-                         <td class="col1">Post 2</td>
-                         <td class="col1">to be posted on 16.06.17, 18:30</td>
-                         <td class="col1"><i class="fa fa-user"></i></td>
-                         <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
-                         <td class="col1"><button type="button" class="btn btn-primary">Delete</button></td>
-                       </tr>
-                     </table>
-
-            <!-- /.container-fluid -->
-        </div>
         <hr/>
         <!-- /#page-wrapper -->
     </div>
