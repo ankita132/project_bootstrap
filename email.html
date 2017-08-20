@@ -175,9 +175,9 @@
         <div id="page-wrapper">
                 <!-- Page Heading -->
                 <div class="btn-group">
-  <button type="button" class="btn btn-primary activa"><a href="index.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Post&nbsp;&nbsp;</a></button>
-  <button type="button" class="btn btn-primary"><a href="email.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Email&nbsp;&nbsp;</a></button>
-  <button type="button" class="btn btn-primary"><a href="suggest.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Suggest&nbsp;&nbsp;</a></button>
+                  <button type="button" class="btn btn-primary"><a href="index.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Post&nbsp;&nbsp;</a></button>
+                  <button type="button" class="btn btn-primary activa"><a href="email.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Email&nbsp;&nbsp;</a></button>
+                  <button type="button" class="btn btn-primary"><a href="suggest.html" style="color:white; text-decoration:none;">&nbsp;&nbsp;Suggest&nbsp;&nbsp;</a></button>
 </div>
 <br/>
 <br/>
@@ -205,8 +205,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-down" style="font-size:20px;"></i><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Add</a></li>
-            <li><a href="#">Remove</a></li>
+            <li><a href="#">Add Account</a></li>
+            <li><a href="#">Remove Account</a></li>
           </ul>
         </li>
         <li><a href="#">FAQ</a></li>
@@ -219,20 +219,33 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            New Post :
+                            New Mail :
                         </h1>
-                              <textarea>Type Here...</textarea>
+                        <div class="form-group input-group">
+                                    <input type="text" class="form-control" placeholder="To:">
+                                    <span class="input-group-addon">CC</span>
+                                    <span class="input-group-addon">BCC</span>
+                                </div>
+                            <div class="form-group">
+                                    <input class="form-control" placeholder="Title:">
+                                </div>
+                              <textarea style="height:30vh;">Type Here...</textarea>
                     </div>
                 </div>
 
                 <p>
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-file-image-o"></i> Add Image </button>&nbsp;&nbsp;
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-files-o"></i> Bulk Upload </button>&nbsp;&nbsp;
+                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-link"></i> Attach file </button>&nbsp;&nbsp;
                    <button type="button" class="btn btn-lg btn-default"><i class="fa fa-smile-o"></i> <i class="fa fa-plus"></i> </button>&nbsp;&nbsp;
-                   <button type="button" class="btn btn-lg btn-default"><i class="fa fa-picture-o"></i> Template </button>&nbsp;&nbsp;
-                   <button type="button" class="pull-right btn btn-lg btn-primary">Post </button>&nbsp;&nbsp;
-                       <button type="button" class="btn btn-primary">Schedule </button>
-                       <button type="button" style="margin-left:-2pt;" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                   <i class="fa fa-bold" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <i class="fa fa-italic" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <i class="fa fa-underline" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <i class="fa fa-align-justify" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <i class="fa fa-text-height" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <i class="fa fa-angle-down" style="font-size:20pt;"></i>&nbsp;&nbsp;
+                   <button type="button" class="pull-right btn btn-lg btn-primary" style="margin-left:8pt;">Send </button>
+                   <button type="button" class="pull-right btn btn-lg btn-default">Draft </button>
+                       <button type="button" class="btn btn-info">Schedule </button>
+                       <button type="button" style="margin-left:-2pt;" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
                          <i class="fa fa-calendar"></i> <span class="caret"></span></button>
                          <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Tablet</a></li>
@@ -243,7 +256,7 @@
                <div class="row">
                    <div class="col-lg-12">
                        <h1 class="page-header">
-                           Post :
+                           Mails :
                        </h1>
 
                    </div>
@@ -263,7 +276,7 @@
                      <table class="table1">
                        <tr class="row1">
                          <td class="col1">1)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
-                         <td class="col1">Post 1</td>
+                         <td class="col1">Mail 1</td>
                          <td class="col1">to be posted at 17:20</td>
                          <td class="col1"><i class="fa fa-user"></i></td>
                          <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
@@ -271,7 +284,7 @@
                        </tr>
                        <tr class="row1">
                          <td class="col1">2)&nbsp;&nbsp;<i class="fa fa-picture-o"></i></td>
-                         <td class="col1">Post 2</td>
+                         <td class="col1">Mail 2</td>
                          <td class="col1">to be posted on 16.06.17, 18:30</td>
                          <td class="col1"><i class="fa fa-user"></i></td>
                          <td class="col1"><button type="button" class="btn btn-default">Edit</button></td>
