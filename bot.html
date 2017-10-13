@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kolkata Bloggers</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/plugins/morris.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">KOLKATA BLOGGERS</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                  <span class="pull-left">
+                                      <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                  </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Ankita Sahoo</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Ankita Sahoo</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:36 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Ankita Sahoo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                  <li>
+                    <div class="form-group" style="margin-top:5pt;margin-left:10pt;">
+                               <input class="form-control" placeholder="Search">
+                           </div>
+                  </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Subscribers</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-line-chart"></i> Trending</a>
+                    </li>
+                    <li class="active">
+                        <a href="bot.html"><i class="fa fa-fw fa-android"></i> Bots</a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-users"></i> Social Media</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-cogs"></i> Settings</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-comment"></i> Messages</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-bell"></i> Notifications</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+                <!-- Page Heading -->
+                <div class="btn-group">
+  <button type="button" class="btn btn-primary activa"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Broadcast&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Search&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Quick Chat&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Thank You&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="" style="color:white; text-decoration:none;">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Quiz&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Survey&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;FAQ&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Graphics&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;News&nbsp;&nbsp;</a></button>
+  <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Appointment&nbsp;&nbsp;</a></button>
+                </div>
+<br/>
+<br/>
+<nav class="navbar navbar-default" style="background-color:white; border:none;">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="position:absolute;
+    left:50%; transform:translate(-50%);">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><i class="fa fa-user" style="font-size:100px; border-right:1px solid grey; padding-right:10px;"></i></a></li>
+        <li><a href="#"><i class="fa fa-wrench" style="font-size:100px; border-right:1px solid grey; padding-right:10px;"></i></a></li>
+        <li><a href="#"><i class="fa fa-users" style="font-size:100px;"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="jumbotron place1" style="background-color:white; margin-top:8%; border:1px solid black; padding:0 10px 0 10px;">
+<h2>Analytics :</h2>
+<div class="image">
+  <img src="graph.png">
+</div>
+<button type="button" class="btn btn-primary" style="position:relative; top:-350px; left:80%;">
+<li class="dropdown" style="list-style-type:none;">
+    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Seen % <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="#">Seen %</a>
+        </li>
+        <li>
+            <a href="#">Delivered %</a>
+        </li>
+        <li>
+            <a href="#"> Clicked %</a>
+        </li>
+    </ul>
+</li>
+</button>
+<button type="button" class="btn btn-primary" style="position:relative; top:-150px; left:71%;">
+<li class="dropdown" style="list-style-type:none;">
+    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Weekday <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="#">Weekday</a>
+        </li>
+        <li>
+            <a href="#">Hourly</a>
+        </li>
+    </ul>
+</li>
+</button>
+<hr/>
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+  <ul class="nav navbar-nav pull-right" style="list-style-type:none;">
+    <li><div class="form-group" style="margin-right:10pt; max-width:150pt;">
+               <input class="form-control" placeholder="Search">
+           </div></li>
+           <li>
+             <button type="button" class="btn btn-primary">
+             <li class="dropdown" style="list-style-type:none;">
+                 <a href="#" class="dropdown-toggle" style="color:white; background-color:transparent; text-decoration:none;" data-toggle="dropdown">Sort By: <b class="caret"></b></a>
+                 <ul class="dropdown-menu">
+                     <li>
+                         <a href="#">A-Z</a>
+                     </li>
+                     <li>
+                         <a href="#">Z-A</a>
+                     </li>
+                     <li>
+                         <a href="#">Recent</a>
+                     </li>
+                     <li>
+                         <a href="#">Data Created</a>
+                     </li>
+                 </ul>
+             </li>
+             </button>
+           </li>
+  </ul>
+</nav>
+
+<table class="table1">
+  <tr class="row1">
+    <td class="col1">1)&nbsp;&nbsp;<i class="fa fa-user"></i></td>
+    <td class="col1">Broadcast 1</td>
+    <td class="col1">12th June, 2017</td>
+    <td class="col1">23:45</td>
+    <td class="col1"><button type="button" class="btn btn-primary click">View</button></td>
+    <td class="col1"><button type="button" class="btn btn-default">Clear</button></td>
+  </tr>
+  <tr class="row1">
+    <td class="col1">2)&nbsp;&nbsp;<i class="fa fa-user"></i></td>
+    <td class="col1">Broadcast 2</td>
+    <td class="col1">12th June, 2017</td>
+    <td class="col1">23:54</td>
+    <td class="col1"><button type="button" class="btn btn-primary click">View</button></td>
+    <td class="col1"><button type="button" class="btn btn-default">Clear</button></td>
+  </tr>
+  <tr class="row1">
+    <td class="col1">3)&nbsp;&nbsp;<i class="fa fa-user"></i></td>
+    <td class="col1">Broadcast 3</td>
+    <td class="col1">19th June, 2017</td>
+    <td class="col1">23:00</td>
+    <td class="col1"><button type="button" class="btn btn-primary click">View</button></td>
+    <td class="col1"><button type="button" class="btn btn-default">Clear</button></td>
+  </tr>
+  <tr class="row1">
+    <td class="col1">4)&nbsp;&nbsp;<i class="fa fa-user"></i></td>
+    <td class="col1">Broadcast 4</td>
+    <td class="col1">20th June, 2017</td>
+    <td class="col1">23:45</td>
+    <td class="col1"><button type="button" class="btn btn-primary click">View</button></td>
+    <td class="col1"><button type="button" class="btn btn-default">Clear</button></td>
+  </tr>
+  <tr class="row1">
+    <td class="col1">5)&nbsp;&nbsp;<i class="fa fa-user"></i></td>
+    <td class="col1">Broadcast 5</td>
+    <td class="col1">27th June, 2017</td>
+    <td class="col1">20:40</td>
+    <td class="col1"><button type="button" class="btn btn-primary click">View</button></td>
+    <td class="col1"><button type="button" class="btn btn-default">Clear</button></td>
+  </tr>
+</table>
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+</nav>
+</div>
+
+
+<div class="jumbotron place2" style="background-color:white; margin-top:8%; border:1px solid black; padding:0 10px 0 10px; display:none;">
+  <div class="panel panel-default" style="margin-top:2%;">
+    <div class="panel-body">
+      <table>
+        <tr>
+          <td class="col1"><i class="fa fa-user"></i></td>
+          <td class="col1" style="padding-left:20pt;">Broadcast </td>
+          <td class="col1" style="padding-left:20pt;">Date</td>
+          <td class="col1" style="padding-left:20pt;">Time</td>
+          <td class="col1" style="padding-left:330pt;"><button type="button" class="btn btn-primary">View</button></td>
+          <td class="col1" style="padding-left:20pt;"><button type="button" class="btn btn-default">Clear</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+<div class="image">
+  <img src="graph.png">
+</div>
+<button type="button" class="btn btn-primary" style="position:relative; top:-350px; left:80%;">
+<li class="dropdown" style="list-style-type:none;">
+    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Seen % <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="#">Seen %</a>
+        </li>
+        <li>
+            <a href="#">Delivered %</a>
+        </li>
+        <li>
+            <a href="#"> Clicked %</a>
+        </li>
+    </ul>
+</li>
+</button>
+<button type="button" class="btn btn-primary" style="position:relative; top:-150px; left:71%;">
+<li class="dropdown" style="list-style-type:none;">
+    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Weekday <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="#">Weekday</a>
+        </li>
+        <li>
+            <a href="#">Hourly</a>
+        </li>
+    </ul>
+</li>
+</button>
+<hr/>
+
+<div class="row" style="margin:0 50pt;">
+  <div class="col-xs-4 col-md-2">
+    <a href="#" class="thumbnail click2" style="text-decoration:none;">
+      Sent
+      <hr/>
+    </a>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <a href="#" class="thumbnail" style="text-decoration:none;">
+      Received
+      <hr/>
+    </a>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <a href="#" class="thumbnail" style="text-decoration:none;">
+      Seen
+      <hr/>
+    </a>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <a href="#" class="thumbnail" style="text-decoration:none;">
+      Clicked
+      <hr/>
+    </a>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <a href="#" class="thumbnail" style="text-decoration:none;">
+      Opened
+      <hr/>
+    </a>
+  </div>
+</div>
+</div>
+<!--main body starts -->
+        <hr/>
+        <!-- /#page-wrapper -->
+    </div>
+  </div>
+  <div class="row" style="background-color:white;">
+    <div class="col-lg-12" style="text-align:center;">
+      <p>
+        <i class="fa fa-facebook-square" style="font-size:25pt; padding-right:10pt;"></i>
+        <i class="fa fa-twitter-square" style="font-size:25pt; padding-right:10pt;"></i>
+        <i class="fa fa-instagram" style="font-size:25pt;"></i>
+      </p>
+    </div>
+</div>
+<hr/>
+<table class="table2">
+  <tr class="row2">
+    <td class="col2">Blog</td>
+    <td class="col2">About</td>
+    <td class="col2">Contact</td>
+    <td class="col2">FAQ</td>
+    <td class="col2">Help</td>
+    <td class="col2 pull-right">Version - 1.0.0</td>
+    <td class="col2 pull-right">Thank you for using KB Bot</td>
+    <td class="col2 pull-right">Terms and Conditions</td>
+  </tr>
+</table>
+<br/>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+<script src="js/script.js"></script>
+      <!-- Flot Charts JavaScript -->
+      <!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
+
+</body>
+
+</html>
