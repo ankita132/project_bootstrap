@@ -175,7 +175,7 @@
 
         <div id="page-wrapper">
                 <!-- Page Heading -->
-                <div class="btn-group">
+              <!--  <div class="btn-group">
   <button type="button" class="btn btn-primary activa"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Broadcast&nbsp;&nbsp;</a></button>
   <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Search&nbsp;&nbsp;</a></button>
   <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Quick Chat&nbsp;&nbsp;</a></button>
@@ -187,7 +187,7 @@
   <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Graphics&nbsp;&nbsp;</a></button>
   <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;News&nbsp;&nbsp;</a></button>
   <button type="button" class="btn btn-primary"><a href="#" style="color:white; text-decoration:none;">&nbsp;&nbsp;Appointment&nbsp;&nbsp;</a></button>
-                </div>
+</div>
 <br/>
 <br/>
 <nav class="navbar navbar-default" style="background-color:white; border:none;">
@@ -198,43 +198,31 @@
         <li><a href="#"><i class="fa fa-wrench" style="font-size:100px; border-right:1px solid grey; padding-right:10px;"></i></a></li>
         <li><a href="#"><i class="fa fa-users" style="font-size:100px;"></i></a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-</nav>
+    </div>
+</nav>-->
 
 <div class="jumbotron place1" style="background-color:white; margin-top:8%; border:1px solid black; padding:0 10px 0 10px;">
 <h2>Analytics :</h2>
 <div class="image">
   <img src="graph.png">
 </div>
-<button type="button" class="btn btn-primary" style="position:relative; top:-350px; left:80%;">
-<li class="dropdown" style="list-style-type:none;">
-    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Seen % <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li>
-            <a href="#">Seen %</a>
-        </li>
-        <li>
-            <a href="#">Delivered %</a>
-        </li>
-        <li>
-            <a href="#"> Clicked %</a>
-        </li>
-    </ul>
-</li>
-</button>
-<button type="button" class="btn btn-primary" style="position:relative; top:-150px; left:71%;">
-<li class="dropdown" style="list-style-type:none;">
-    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Weekday <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li>
-            <a href="#">Weekday</a>
-        </li>
-        <li>
-            <a href="#">Hourly</a>
-        </li>
-    </ul>
-</li>
-</button>
+<div class="dropdown" style="position:relative; top:-350px; left:80%;">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seen %
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Seen %</a></li>
+    <li><a href="#">Delivered %</a></li>
+    <li><a href="#">Clicked %</a></li>
+  </ul>
+</div>
+<div class="dropdown" style="position:relative; top:-150px; left:80%;">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Weekday
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Weekday</a></li>
+    <li><a href="#">Hourly</a></li>
+  </ul>
+</div>
 <hr/>
 <nav aria-label="Page navigation">
   <ul class="pagination">
@@ -249,25 +237,16 @@
                <input class="form-control" placeholder="Search">
            </div></li>
            <li>
-             <button type="button" class="btn btn-primary">
-             <li class="dropdown" style="list-style-type:none;">
-                 <a href="#" class="dropdown-toggle" style="color:white; background-color:transparent; text-decoration:none;" data-toggle="dropdown">Sort By: <b class="caret"></b></a>
-                 <ul class="dropdown-menu">
-                     <li>
-                         <a href="#">A-Z</a>
-                     </li>
-                     <li>
-                         <a href="#">Z-A</a>
-                     </li>
-                     <li>
-                         <a href="#">Recent</a>
-                     </li>
-                     <li>
-                         <a href="#">Data Created</a>
-                     </li>
-                 </ul>
-             </li>
-             </button>
+             <div class="dropdown">
+               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Sort By :
+               <span class="caret"></span></button>
+               <ul class="dropdown-menu">
+                 <li><a href="#">A-Z</a></li>
+                 <li><a href="#">Z-A</a></li>
+                 <li><a href="#">Recent</a></li>
+                 <li><a href="#">Data created</a></li>
+               </ul>
+             </div>
            </li>
   </ul>
 </nav>
@@ -344,35 +323,23 @@
 <div class="image">
   <img src="graph.png">
 </div>
-<button type="button" class="btn btn-primary" style="position:relative; top:-350px; left:80%;">
-<li class="dropdown" style="list-style-type:none;">
-    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Seen % <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li>
-            <a href="#">Seen %</a>
-        </li>
-        <li>
-            <a href="#">Delivered %</a>
-        </li>
-        <li>
-            <a href="#"> Clicked %</a>
-        </li>
-    </ul>
-</li>
-</button>
-<button type="button" class="btn btn-primary" style="position:relative; top:-150px; left:71%;">
-<li class="dropdown" style="list-style-type:none;">
-    <a href="#" class="dropdown-toggle" style="color:white; text-decoration:none;" data-toggle="dropdown">Weekday <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li>
-            <a href="#">Weekday</a>
-        </li>
-        <li>
-            <a href="#">Hourly</a>
-        </li>
-    </ul>
-</li>
-</button>
+<div class="dropdown" style="position:relative; top:-350px; left:80%;">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seen %
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Seen %</a></li>
+    <li><a href="#">Delivered %</a></li>
+    <li><a href="#">Clicked %</a></li>
+  </ul>
+</div>
+<div class="dropdown" style="position:relative; top:-150px; left:80%;">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Weekday
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Weekday</a></li>
+    <li><a href="#">Hourly</a></li>
+  </ul>
+</div>
 <hr/>
 
 <div class="row" style="margin:0 50pt;">
